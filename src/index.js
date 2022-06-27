@@ -4,7 +4,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Cardexam from './cardexam';
-// import Card from './card';
 // import Navbar from './navbar';
 import Counter from './counter';
 
@@ -15,8 +14,7 @@ root.render(
     {/* <Navbar/> */}
     <Counter />
     <Cardexam/>
-    {/* <Card /> */}
-  </React.StrictMode>
+  </React.StrictMode>   
 );
 
 // If you want to start measuring performance in your app, pass a function
