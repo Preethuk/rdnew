@@ -3,17 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Cardexam from './cardexam';
 // import Navbar from './navbar';
-import Counter from './counter';
+// import Counter from './counter';
+import Preethu from './preethu';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
     {/* <Navbar/> */}
-    <Counter />
-    <Cardexam/>
+    {/* <Counter /> */}
+    {/* <Preethu /> */}
   </React.StrictMode>   
 );
 
